@@ -1,9 +1,9 @@
-const Layout = ({ children })  => {
-
+const Layout = ({ children, name })  => {
+  document.title = name;
   return (
     <div>
       <header>
-        <h1>Primariqui Hostel</h1>
+        <h1>Primariqui { name }</h1>
       </header>
 
       <main>
@@ -11,7 +11,7 @@ const Layout = ({ children })  => {
       </main>
 
       <footer>
-        <p>Todos los derechos reservados cabrón</p>
+        <p>Todos los derechos reservados a { name }, cabrón</p>
       </footer>
       
     </div>
