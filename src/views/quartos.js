@@ -1,10 +1,16 @@
-
+import Layout from '../components/layout'
 
 const Quartos = () => {
   return (
-    <div className='header'>
-      <h2>Primariqui Hostel</h2>
-    </div>
+    <Layout>
+      <div className='quartos2'>
+        <ul>
+          <li>Quarto Individual</li>
+          <li>Quarto Casal</li>
+          <li>Quarto Bacanal</li>
+        </ul>
+      </div>      
+    </Layout>
   )
 }
 
