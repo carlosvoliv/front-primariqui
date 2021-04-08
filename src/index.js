@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Quartos from './views/quartos';
+import './assets/css/style.css'
 
 ReactDOM.render(
   <React.Fragment>
-    <h1>Primariqui cleanup</h1>
+    <Quartos />
   </React.Fragment>,
   document.getElementById('root')
 );
